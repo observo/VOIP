@@ -1,1 +1,13 @@
+Hello,
+I've included some diagram image to understand better what I am trying to achieve.
+
+Client IP should send packets to VPS Proxy IP which should then be forwarded to the SERVER IP but include the client IP. 
+
+I have to add that we're not using port 80 or http, we're using ports: (2106 and 7777)
+
+So for both ports packets should be forwarded to Server IP with real client ip NOT VPS IP.
+haproxy, tunnel... reverse proxy what ever you recommend
+VPS = LINUX
+SERVER = Windows Server
+
 https://serverfault.com/questions/811596/how-to-forward-client-ip-to-backend-servers-in-haproxy
